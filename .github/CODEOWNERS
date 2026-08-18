@@ -1,0 +1,12 @@
+# Code owners are automatically requested for review on pull requests
+# that touch matching paths.
+#
+# Syntax: <path pattern>  <owner> [<owner>...]
+# Last matching rule wins.
+
+# Default owner for everything in the repo
+*                       @Hammoud183
+
+# Pipeline and security config — the highest-risk files in the repo
+/.github/workflows/     @Hammoud183
+/.github/CODEOWNERS     @Hammoud183
